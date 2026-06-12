@@ -1,4 +1,4 @@
-package laboratorioFinal;
+package model;
 
 public class DetalleVenta {
     private int idDetalle;

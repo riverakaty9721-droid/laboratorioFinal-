@@ -1,4 +1,4 @@
-package laboratorioFinal;
+package model;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,4 +30,3 @@ public class Categoria {
         return "Categoria{id=" + idCategoria + ", nombre='" + nombre + "'}";
     }
 }
-

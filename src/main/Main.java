@@ -1,5 +1,6 @@
-package laboratorioFinal;
+package main;
 
+import model.*;
 import java.util.Date;
 
 public class Main {
@@ -26,6 +27,8 @@ public class Main {
         venta1.mostrarVenta();
         venta1.calcularImpuesto();
 
+        System.out.println();
+
         Venta venta2 = new Venta(2, new Date(), cliente2, emp1);
         venta2.addDetalle(new DetalleVenta(3, 3, p3));
         venta2.verificarVentaValida();
@@ -35,4 +38,3 @@ public class Main {
         System.out.println("\n===== FIN DEL PROGRAMA =====");
     }
 }
-
